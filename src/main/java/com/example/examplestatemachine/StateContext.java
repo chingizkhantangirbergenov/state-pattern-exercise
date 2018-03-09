@@ -9,7 +9,7 @@ package com.example.examplestatemachine;
 	private String str;
 	private Actions initialAction;
 
-        	public StateContext() {
+        	public  StateContext() {
         		this.acceptState = new AcceptState(this);
         		this.rejectState = new RejectState(this);
         		state = rejectState;
