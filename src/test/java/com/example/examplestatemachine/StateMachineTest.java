@@ -9,6 +9,7 @@ import org.junit.Test;
 public class StateMachineTest {
     StateContext sc;
     
+
     @Before
     public void setUp() {
         sc = new StateContext();
